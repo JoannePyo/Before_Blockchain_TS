@@ -32,6 +32,7 @@ This blockchain has a basic block chain structure, where each block contains the
     hash: '33090390c5b209e1796881ef8aa55128e9beab0941cbc6f4989260d6f5bd961b'
   }
 ]
+```
 
 ## Each block has the following properties:
 
