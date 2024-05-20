@@ -1,0 +1,20 @@
+//write down where is typescript. 타입스크립 위치 쓰기
+{
+    ////타입스크립트가 src의 모든 파일을 확인한다는 것을 의미함.
+    "include": ["src"],
+    // outDir is what is a directory where the Javascript going to go
+    //outDir는 자바스크립 파일이 생성될 디렉터리를 지정해
+    "compilerOptions": {
+        "outDir": "build",
+        //target은 어떤 버전의 자바스크립트로 내가 타입스크립트를 일하고 싶은지 나타냄.
+        "target": "ES6",
+        //declaration files (정의파일) that describe the target runtime environment.
+        //나의 자바스크립트 코드가 어디에서 동작할지를 알려줌.(자바스크립트 코드의 모양을 타입스크립트에 설명해주는 파일) 
+        //DOM = 브라우저에 실행 =>을 쓰므로써. 나의 타입스크립트에게 무슨 API를 쓸거고 어떤 환경에서 코드를 실행 시킬지를 알려줌.
+        "lib": ["ES6","DOM"],
+        //실수로부터 보호해줌.
+        "strict": true,
+        //타입스크립에 자바스크립트를 허용한다는 뜻이다.
+        "allowJs": true
+    }
+}
