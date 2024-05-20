@@ -36,7 +36,7 @@ This blockchain has a basic block chain structure, where each block contains the
 
 ## Each block has the following properties:
 
-prevHash: The hash value of the previous block
-height: The height (or order) of the block
-data: The data stored in the block
-hash: The hash value of the current block
+prevHash: The hash value of the previous block <br>
+height: The height (or order) of the block<br>
+data: The data stored in the block<br>
+hash: The hash value of the current block<br>
